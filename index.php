@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h1>Hello, World! LEARNING CI/CD Docker</h1>
+<h1>8 साल के Linux experience की वजह से Docker, Jenkins और CI/CD जल्दी सीख लिया — DevOps की तरफ मजबूत कदम।</h1>
     
 </body>
 </html>
