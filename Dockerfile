@@ -1,8 +1,12 @@
-# Apache वाला इमेज यूज़ कर रहे हैं क्योंकि अभी हमें Nginx Proxy की ज़रूरत नहीं है
-FROM php:8.1-apache
+# PHP-FPM का हल्का वर्जन
+FROM php:8.2-fpm-alpine
 
-# आपकी index.php को कंटेनर के सही फोल्डर में कॉपी करना
+# काम करने की जगह
+WORKDIR /var/www/html
+
+# आपका कोड कॉपी करें
 COPY . /var/www/html/
 
-# पोर्ट 80 एक्सपोज़ करना
-EXPOSE 80
+# पोर्ट 9000 पर PHP-FPM चलेगा
+EXPOSE 9000
+CMD ["php-fpm"]
