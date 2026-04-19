@@ -1,8 +1,10 @@
 FROM php:8.2-fpm
 
-WORKDIR /var/www/html/demo7000
+WORKDIR /var/www/html
 
-# extensions (optional)
-RUN docker-php-ext-install mysqli pdo pdo_mysql
+# 👇 ये जरूरी है
+COPY . /var/www/html
+
+RUN chown -R www-data:www-data /var/www/html
 
 EXPOSE 9000
