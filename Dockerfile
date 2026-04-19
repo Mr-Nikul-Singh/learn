@@ -1,5 +1,5 @@
 # PHP-FPM का हल्का वर्जन
-FROM php:8.2-fpm-alpine
+FROM php:8.1-fpm-alpine
 
 # काम करने की जगह
 WORKDIR /var/www/html
