@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akash Sharma | DevOps Engineer</title>
+  <title>Nikul Singh Sharma | DevOps Engineer</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -107,7 +107,7 @@
     <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <div class="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center text-xl font-bold">🚀</div>
-        <h1 class="text-2xl font-semibold heading-font tracking-tight">Akash Sharma</h1>
+        <h1 class="text-2xl font-semibold heading-font tracking-tight">Nikul Singh</h1>
       </div>
       
       <div class="hidden md:flex items-center gap-8 text-sm font-medium">
@@ -222,13 +222,13 @@
       <div class="grid md:grid-cols-12 gap-12 items-center">
         <div class="md:col-span-5">
           <div class="glass rounded-3xl p-2">
-            <img src="https://picsum.photos/id/1015/800/800" alt="Akash Sharma" 
+            <img src="https://picsum.photos/id/1015/800/800" alt="Nikul Singh" 
                  class="rounded-3xl w-full aspect-square object-cover">
           </div>
         </div>
         <div class="md:col-span-7 space-y-8 text-lg">
           <p class="text-gray-300 leading-relaxed">
-            Hi, I'm Akash Sharma — a passionate DevOps Engineer based in Jaipur, India. 
+            Hi, I'm Nikul Singh — a passionate DevOps Engineer based in Jaipur, India. 
             With over 8 years of experience, I specialize in designing and implementing robust CI/CD pipelines, 
             container orchestration, and cloud infrastructure that powers high-traffic applications.
           </p>
@@ -400,7 +400,7 @@
   </section>
 
   <footer class="bg-black/50 py-12 text-center text-gray-500 text-sm">
-    © 2026 Akash Sharma • Crafted with ❤️ for the DevOps community
+    © 2026 Nikul Singh • Crafted with ❤️ for the DevOps community
   </footer>
 
   <script>
